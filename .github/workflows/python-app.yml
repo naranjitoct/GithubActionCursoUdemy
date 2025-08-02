@@ -31,8 +31,9 @@ jobs:
       #Step "3" : Install Dependencies
     - name: Install dependencies
       run: |
-        # python -m pip install --upgrade pip (due to an error)
         pip install -t requirements.txt
+      # python -m pip install --upgrade pip (due to an error)
+        
       
     #Step "3" : Install Dependencies
     - name: Test with pytest
