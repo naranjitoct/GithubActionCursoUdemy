@@ -2,6 +2,7 @@ from src.math_operations import add,sub
 
 def test_add ():
     assert add (2,3)==5
+    print(add (2,3))
     assert add (4,3)==7
 
 def test_sub():
